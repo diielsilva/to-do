@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(64, 127, 179);
+}
+
+.secao-pendente{
+    background-color: white;
+    width: 45%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.secao-pendente h1{
+    margin-bottom: 1%;
+}
+
+.secao-pendente fieldset{
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.secao-pendente legend{
+    text-align: left;
+}
+
+.secao-pendente button{
+    padding: 8px;
+}
+
+.secao-pendente td{
+    padding: 10px;
+}
+
+.secao-pendente table{
+    border-collapse: collapse;
+    margin: 5px auto;
+}

@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(64, 127, 179);
+}
+
+.secao-remocao{
+    background-color: white;
+    width: 45%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.secao-remocao h1{
+    margin-bottom: 1%;
+}
+
+.secao-remocao fieldset{
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.secao-remocao legend{
+    text-align: left;
+}
+
+.secao-remocao button{
+    padding: 8px;
+}
+
+.secao-remocao input{
+    padding: 8px;
+}
+
+.secao-remocao input[type=submit]{
+    display: block;
+    margin: 5px auto;
+}

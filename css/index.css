@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(64, 127, 179);
+}
+
+.secao-menu h1{
+    margin-bottom: 1%;
+}
+
+.secao-menu{
+    background-color: white;
+    width: 45%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.secao-menu fieldset{
+    padding: 10px;
+    margin-bottom: 1%;
+    border-radius: 3px;
+}
+
+.secao-menu select{
+    padding: 8px;
+}
+
+.secao-menu legend{
+    text-align: left;
+}
+
+.secao-menu input[type=submit]{
+    padding: 8px;
+    display: block;
+    margin: 5px auto;
+}

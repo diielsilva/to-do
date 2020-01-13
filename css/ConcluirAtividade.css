@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(64, 127, 179);
+}
+
+.concluir-atividades{
+    background-color: white;
+    width: 45%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.concluir-atividades h1{
+    margin-bottom: 1%;
+}
+
+.concluir-atividades table{
+    border-collapse: collapse;
+    margin: 5px auto;
+}
+
+.concluir-atividades td{
+    padding: 10px;
+}
+
+.concluir-atividades legend{
+    text-align: left;
+}
+
+.concluir-atividades fieldset{
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.concluir-atividades input[type=submit]{
+    padding: 8px;
+    margin-bottom: 1%;
+}
+
+.concluir-atividades button{
+    padding: 8px;
+}
